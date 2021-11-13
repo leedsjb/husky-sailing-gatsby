@@ -36,8 +36,9 @@ if (!spaceId || !accessToken) {
 
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Contentful Starter",
-    description: "Official Contentful Gatsby Starter",
+    title: "Husky Sailing Foundation",
+    description: "Building a diverse, inclusive, and highly competitive \
+      University of Washington Sailing Team",
   },
   pathPrefix: "/gatsby-contentful-starter",
   plugins: [

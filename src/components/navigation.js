@@ -16,10 +16,35 @@ const Navigation = () => (
         </Link>
       </li>
       <li className={styles.navigationItem}>
-        <Link to="/blog/" activeClassName="active">
-          Blog
+        <Link to="/about/" activeClassName="active">
+          About
         </Link>
       </li>
+      <li className={styles.navigationItem}>
+        <Link to="/blog/" activeClassName="active">
+          News
+        </Link>
+      </li>
+      <li className={styles.navigationItem}>
+        <Link to="/blog/" activeClassName="active">
+          Support
+        </Link>
+      </li>
+      <li className={styles.navigationItem}>
+        <Link to="/blog/" activeClassName="active">
+          Leadership
+        </Link>
+      </li>
+      <li className={styles.navigationItem}>
+        <Link to="/blog/" activeClassName="active">
+          Contact
+        </Link>
+      </li>
+      <li className={styles.navigationItem}>
+        <Link to="/blog/" activeClassName="active">
+          Donate
+        </Link>
+      </li>  
     </ul>
   </nav>
 )
