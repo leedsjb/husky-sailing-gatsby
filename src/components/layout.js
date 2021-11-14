@@ -17,7 +17,7 @@ class Template extends React.Component {
         <Seo />
         <ThemeProvider theme={theme}>
           <Navigation />
-          <main>{children}</main>
+          <main style={{marginBottom: "50px"}}>{children}</main>
           <Footer />
         </ThemeProvider>
       </>

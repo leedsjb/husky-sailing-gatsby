@@ -10,6 +10,12 @@ const theme = createTheme({
         secondary: {
             main: '#85754d',
         }
+    },
+    typography: {
+        // not yet working
+        fontFamily: [
+            'Arial',
+        ]
     }
 
 });
