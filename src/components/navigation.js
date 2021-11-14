@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'gatsby'
+import { Link, Button } from 'gatsby-theme-material-ui';
 
 import * as styles from './navigation.module.css'
 
@@ -42,7 +42,7 @@ const Navigation = () => (
       </li>
       <li className={styles.navigationItem}>
         <Link to="/blog/" activeClassName="active">
-          Donate
+          <Button variant="contained">Donate</Button>
         </Link>
       </li>  
     </ul>
